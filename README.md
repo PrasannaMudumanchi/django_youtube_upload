@@ -53,7 +53,7 @@ Click on Setup Consent Screen on the popup as shown in below:
 
 #### Step 8: Give Required details in Oauth Consent Screen
 Give details like application name and logo and support mail and click on save at the bottom of the page
-<img src="/djangoyt_github/oauth_consent_screen.png" width="750">
+<img src="/djangoyt_github/oauth_consent_screen.png" width="600">
 
 #### Step 9: In Step2 of Credentials, Specify Authorized Java Script origins and Authorized Redirect URIs
 Specify the required details as shown in below image and Click on "Create OAuth client ID"
