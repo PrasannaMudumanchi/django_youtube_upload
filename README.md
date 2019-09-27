@@ -7,7 +7,7 @@
  ## Creating Project folder and Virtual Environment
  I am using Virtualenv for creating virtual environment
 
- - $ mkdir django-youtube
- - $ cd django-youtube
- - $ virtualenv --python=python3 env_djangoyt
- - $ source env_djangoyt/bin/activate
+ ~ $ mkdir django-youtube
+ ~ $ cd django-youtube
+ ~ $ virtualenv --python=python3 env_djangoyt
+ ~ $ source env_djangoyt/bin/activate
