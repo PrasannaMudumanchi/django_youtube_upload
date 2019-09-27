@@ -23,8 +23,17 @@
 ```
 ## Now setup google config
 
+<<<<<<< HEAD
 #### Step1: Goto the following link and create a new project 
 [Google Console](https://console.developers.google.com/apis/library/youtube.googleapis.com)
 
 #### Step2: Create New Project
 [Google_New_Project]()
+=======
+ ``` 
+   $ mkdir django-youtube
+   $ cd django-youtube
+   $ virtualenv --python=python3 env_djangoyt
+   $ source env_djangoyt/bin/activate
+```
+>>>>>>> fbc294e82ca9820cc5d5f13ad39cc23b2f6a5709
