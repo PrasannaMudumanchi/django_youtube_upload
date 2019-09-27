@@ -24,5 +24,10 @@
 ## Now setup google config
 
 #### Step1: Goto the following link and create a new project 
-(https://console.developers.google.com/apis/library/youtube.googleapis.com)
+https://console.developers.google.com/apis/library/youtube.googleapis.com
 
+#### Step2: Create a new Project
+
+#### Step3: Click "Enable APIs and Services"
+
+#### Step4: Look for "Youtube Data API V3 and Click Enable"
