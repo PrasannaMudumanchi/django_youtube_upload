@@ -6,8 +6,25 @@
 
  ## Creating Project folder and Virtual Environment
  I am using Virtualenv for creating virtual environment
+```
+   $ mkdir django-youtube
+   $ cd django-youtube
+   $ virtualenv --python=python3 env_djangoyt
+   $ source env_djangoyt/bin/activate
+```
+## Installing dependencies
+```
+ $ pip install google-api-python-client google-auth\
+ google-auth-oauthlib google-auth-httplib2 oauth2client Django unipath jsonpickle
+```
+## create project
+```
+ $ django-admin startproject django_youtube
+```
+## Now setup google config
 
- ~ $ mkdir django-youtube
- ~ $ cd django-youtube
- ~ $ virtualenv --python=python3 env_djangoyt
- ~ $ source env_djangoyt/bin/activate
+#### Step1: Goto the following link and create a new project 
+[Google Console](https://console.developers.google.com/apis/library/youtube.googleapis.com)
+
+#### Step2: Create New Project
+[Google_New_Project]()
