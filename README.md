@@ -24,5 +24,5 @@
 ## Now setup google config
 
 #### Step1: Goto the following link and create a new project 
-[Google Console](https://console.developers.google.com/apis/library/youtube.googleapis.com)
+(https://console.developers.google.com/apis/library/youtube.googleapis.com)
 
