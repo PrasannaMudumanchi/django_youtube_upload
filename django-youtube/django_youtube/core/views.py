@@ -63,7 +63,7 @@ class HomePageView(FormView):
                 'categoryId': '22'
             },
             'status': {
-                'privacyStatus': 'unlisted'
+                'privacyStatus': 'public'
             }
         }
 
@@ -114,7 +114,7 @@ def search_video(request):
    video_params = {
        'part': 'status,statistics,localizations',
        'key': settings.GOOGLE_API_KEY,
-       'id': 'VNgifppve4E'
+       'id': '<video_id>'
    }
    r = requests.get(video_url, params=video_params)
    results = r.json()
@@ -132,7 +132,7 @@ def get_channel_videos(request):
    
    # get Uploads playlist id
    youtube = build('youtube', 'v3', developerKey=settings.GOOGLE_API_KEY)
-   res = youtube.channels().list(id='UCK9nGva7ub1pDcFx-b2VQ1Q',
+   res = youtube.channels().list(id='<channel_id>',
                                  part='contentDetails').execute()
    playlist_id = res['items'][0]['contentDetails']['relatedPlaylists']['uploads']
    
