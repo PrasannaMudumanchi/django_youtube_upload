@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+        <html>
+        <body>
+
+        <h1>Uploaded Videos:</h1>
+        {% for video in videos %}
+        <h3>{{video}}</h3>
+        {% endfor %}
+        <br>
+        <br>
+        <h1>These are video details for every video:</h1>
+        {% for stats in video_stats%}
+        <h3> {{stats}}</h3>
+        <br>
+        {% endfor %}
+        </body>
+        </html>

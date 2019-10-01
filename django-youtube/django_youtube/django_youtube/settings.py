@@ -121,6 +121,8 @@ GOOGLE_OAUTH2_CLIENT_SECRETS_JSON = 'client_id_django_yt_3.json'
 ### google oauth credentials
 
 
+### google api key
+GOOGLE_API_KEY='<api-key-of-project>'
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
 
