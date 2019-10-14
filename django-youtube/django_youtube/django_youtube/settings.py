@@ -116,7 +116,7 @@ USE_L10N = True
 USE_TZ = True
 
 ###google oauth file
-GOOGLE_OAUTH2_CLIENT_SECRETS_JSON = 'client_id_django_yt_3.json'
+GOOGLE_OAUTH2_CLIENT_SECRETS_JSON = '<clientjson-file>'
 
 ### google oauth credentials
 
